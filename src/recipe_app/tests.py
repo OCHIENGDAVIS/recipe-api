@@ -103,6 +103,20 @@ class PrivateIngredientsAPITest(TestCase):
         self.assertEqual(res.data[0]['name'], ingredient.name)
 
 
+    def test_create_ingredients_successfull(self):
+        """Tests creating a new ingredient"""
+        paylaod = dict(name='cabbage')
+        self.client.post(INGRIDENT_URL, paylaod)
+        exists = Ingredient.objects.filter(user=self.user, name=paylaod['name']).exists()
+        self.assertTrue(exists)
+
+    def test_ingredients_invalid(self):
+        """Tests creating an invalid ingredients fails"""
+        payload = {'name':''}
+        res = self.client.post(INGRIDENT_URL, payload)
+        self.assertEqual(res.status_code, status.HTTP_400_BAD_REQUEST)
+
+
 
 
 
