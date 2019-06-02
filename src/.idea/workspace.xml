@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recipe_app/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="249" column="33" lean-forward="false" selection-start-line="249" selection-start-column="33" selection-end-line="249" selection-end-column="33" />
+            <state relative-caret-position="184">
+              <caret line="284" column="35" lean-forward="false" selection-start-line="284" selection-start-column="35" selection-end-line="284" selection-end-column="35" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recipe_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="521">
@@ -155,8 +155,8 @@
         <option value="$PROJECT_DIR$/recipe_app/urls.py" />
         <option value="$PROJECT_DIR$/core/models.py" />
         <option value="$PROJECT_DIR$/recipe_app/serializers.py" />
-        <option value="$PROJECT_DIR$/recipe_app/tests.py" />
         <option value="$PROJECT_DIR$/recipe_app/views.py" />
+        <option value="$PROJECT_DIR$/recipe_app/tests.py" />
       </list>
     </option>
   </component>
@@ -423,22 +423,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recipe_app/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="249" column="33" lean-forward="false" selection-start-line="249" selection-start-column="33" selection-end-line="249" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recipe_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="55" column="46" lean-forward="false" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipe_app/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="284" column="35" lean-forward="false" selection-start-line="284" selection-start-column="35" selection-end-line="284" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
