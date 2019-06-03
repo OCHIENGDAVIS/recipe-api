@@ -127,6 +127,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
@@ -139,7 +141,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'local_static'), )
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'local_static'), os.path.join(PROJECT_ROOT, 'static'), )
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
 
